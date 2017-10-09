@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: rtapi2
+Version: 0.1
+Summary: Wrapper for RT REST API Version 2
+Home-page: https://github.com/Rickerd0613/rtapi2
+Author: Jacob Rickerd
+Author-email: jacobrickerd@gmail.com
+License: MIT
+Download-URL: https://github.com/Rickerd0613/rtapi2/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: request,tracker,rt,api
+Platform: UNKNOWN
