@@ -66,15 +66,15 @@ Available Methods:
 
 ## Usage
 ```python
-import rtapi2
+from rtapi2 import rt
 
 #Supports basic auth
-#connector = rtapi.rt.Connector(host="localhost:8080", username="user", password="password", ssl=False)
+#connector = rt.Connector(host="localhost:8080", username="user", password="password", ssl=False)
 
 #Supports new tokens!
-connector = rtapi.rt.Connector(host="localhost:8080", token="1234567", ssl=False)
+connector = rt.Connector(host="localhost:8080", token="1234567", ssl=False)
 
-properties = {"id": "ticket/new", "Queue": "General", "Requestor": "user@umich.edu", "Priority": "4", "Subject": "Test REST Module", "Text": "test"}
+properties = {"id": "ticket/new", "Queue": "General", "Requestor": "user@email.com", "Priority": "4", "Subject": "Test REST Module", "Text": "test"}
 
 response = connector.createTicket(properties)
 print response
